@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/status_entery_manual"
+            android:title="Enter Status manually" />
+        <item
+            android:id="@+id/aircraft_data"
+            android:title="Previous Aircraft Data" />
+        <item
+            android:id="@+id/nasa_status"
+            android:title="Status" />
+        <item
+            android:id="@+id/neatest_your_location"
+            android:title="Nearest Of Your Location" />
+        <item
+            android:id="@+id/nasa_home"
+            android:title="NASA" />
+        <item
+            android:id="@+id/nasa_asp"
+            android:title="ASP" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About" />
+        </menu>
+    </item>
+</menu>
